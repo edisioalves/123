@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio Futurista</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Seu Nome</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="reveal">
+    <h2>🚀 Bem-vindo ao Futuro</h2>
+    <p>Explore meu universo digital interativo</p>
+    <a href="#projetos" class="botao">Ver Projetos</a>
+  </section>
+
+  <section id="sobre" class="reveal">
+    <h2>Sobre mim</h2>
+    <p>Sou um criador digital apaixonado por inovação e tecnologia.</p>
+  </section>
+
+  <section id="projetos" class="reveal">
+    <h2>Projetos</h2>
+    <div class="galeria">
+      <div class="projeto">Projeto 1</div>
+      <div class="projeto">Projeto 2</div>
+      <div class="projeto">Projeto 3</div>
+    </div>
+  </section>
+
+  <section id="contato" class="reveal">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu email" required />
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
